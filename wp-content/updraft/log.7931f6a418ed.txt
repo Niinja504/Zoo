@@ -1,0 +1,752 @@
+0000.001 (0) Opened log file at time: Wed, 30 Oct 2024 04:55:26 +0000 on http://localhost/Zoo/wordpress
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT RMX 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: es_MX Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 82.7M | 84M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 249265 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.008 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.014 (0) Semaphore (fd, wp_options) being initialised
+0000.018 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.024 (0) Set semaphore last lock (fd) time to 2024-10-30 04:55:26
+0000.025 (0) Semaphore lock (fd) complete
+0000.030 (0) Backup run: resumption=0, nonce=7931f6a418ed, file_nonce=7931f6a418ed begun at=1730264126 (0s ago), job type=backup
+0000.032 (0) Scheduling a resumption (1) after 300 seconds (1730264426) in case this run gets aborted
+0000.045 (0) Checking if we have a zip executable available
+0000.048 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.049 (0) Creation of backups of directories: beginning
+0000.054 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.558 (0) Total entities for the zip file: 1525 directories, 8447 files (0 skipped as non-modified), 111.2 MB
+0002.568 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 113845.7 KB, split: 409600 KB)
+0002.593 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.611 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.627 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.642 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.657 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.674 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.690 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.705 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.729 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0002.746 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0002.761 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0002.776 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0002.790 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0002.805 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0002.820 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0002.834 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0002.855 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0002.871 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0002.886 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0002.900 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0002.917 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0002.934 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0002.949 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0002.970 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0002.988 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0003.004 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0003.020 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0003.035 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0003.055 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0003.070 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0003.084 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0003.102 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0003.119 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0003.137 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0003.152 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0003.169 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0003.185 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0003.201 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0003.217 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0003.237 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0003.252 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0003.267 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0003.283 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0003.299 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0003.314 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0003.330 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0003.347 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0003.370 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0003.385 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0003.400 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0003.416 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0003.432 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0003.449 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0003.464 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0003.481 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0003.495 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0003.511 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 5700 files added (on-disk size: 0 KB)
+0003.527 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 5800 files added (on-disk size: 0 KB)
+0003.541 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 5900 files added (on-disk size: 0 KB)
+0003.557 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 6000 files added (on-disk size: 0 KB)
+0003.572 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 6100 files added (on-disk size: 0 KB)
+0003.587 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 6200 files added (on-disk size: 0 KB)
+0003.602 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 6300 files added (on-disk size: 0 KB)
+0003.617 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 6400 files added (on-disk size: 0 KB)
+0003.633 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 6500 files added (on-disk size: 0 KB)
+0003.649 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 6600 files added (on-disk size: 0 KB)
+0003.664 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 6700 files added (on-disk size: 0 KB)
+0003.683 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 6800 files added (on-disk size: 0 KB)
+0003.698 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 6900 files added (on-disk size: 0 KB)
+0003.714 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 7000 files added (on-disk size: 0 KB)
+0003.728 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 7100 files added (on-disk size: 0 KB)
+0003.744 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 7200 files added (on-disk size: 0 KB)
+0003.764 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 7300 files added (on-disk size: 0 KB)
+0003.779 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 7400 files added (on-disk size: 0 KB)
+0003.795 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 7500 files added (on-disk size: 0 KB)
+0003.811 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 7600 files added (on-disk size: 0 KB)
+0003.827 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 7700 files added (on-disk size: 0 KB)
+0003.842 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 7800 files added (on-disk size: 0 KB)
+0003.857 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 7900 files added (on-disk size: 0 KB)
+0003.877 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 8000 files added (on-disk size: 0 KB)
+0003.892 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 8100 files added (on-disk size: 0 KB)
+0003.908 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 8200 files added (on-disk size: 0 KB)
+0003.924 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 8300 files added (on-disk size: 0 KB)
+0003.940 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.tmp: 8400 files added (on-disk size: 0 KB)
+0102.024 (0) Creating zip file manifest (backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.list-temp.tmp)
+0102.050 (0) Successfully created zip file manifest (size: 751295)
+0102.301 (0) Created plugins zip (0) - 37773 KB in 102.2 s (369.4 KB/s) (sha1: 25f59bfd1b3d10e5355010927704abef5e22b74e, sha256: 000c3d8696b05dca2ec12c29cfaaf121474598845a2a11dfe49d36c539da72a2)
+0102.316 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0102.319 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4f3b5bd6213fcca259d4880c9a43cf93)
+0103.650 (0) Google Drive: creating path: /UpdraftPlus
+0105.703 (0) Google Drive: quota usage: used=0 MB, total=15360 MB, available=15360 MB
+0105.705 (0) Google Drive: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip: Attempting to upload to Google Drive (into folder id: 1ad6O8H6wAyJCPtr2Ynt6OU5r9BfuC9PE)
+0108.172 (0) Googledrive chunked upload: 2.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 87.2 / 104)
+0110.495 (0) Googledrive chunked upload: 8.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 87.2 / 104)
+0113.684 (0) Googledrive chunked upload: 19 % uploaded (7340032)
+0116.906 (0) Googledrive chunked upload: 29.8 % uploaded (11534336)
+0120.177 (0) Googledrive chunked upload: 40.7 % uploaded (15728640)
+0123.451 (0) Googledrive chunked upload: 51.5 % uploaded (19922944)
+0126.671 (0) Googledrive chunked upload: 62.4 % uploaded (24117248)
+0130.421 (0) Googledrive chunked upload: 73.2 % uploaded (28311552)
+0133.682 (0) Googledrive chunked upload: 84 % uploaded (32505856)
+0136.901 (0) Googledrive chunked upload: 94.9 % uploaded (36700160)
+0140.426 (0) Googledrive chunked upload: 100 % uploaded (36700160)
+0140.432 (0) Google Drive: OK: Archive backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip uploaded in 34.73 seconds
+0140.435 (0) Recording as successfully uploaded: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip
+0140.443 (0) Deleting local file: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip: OK
+0140.451 (0) Beginning creation of dump of themes (split every: 400 MB)
+0141.028 (0) Total entities for the zip file: 263 directories, 1701 files (0 skipped as non-modified), 20.7 MB
+0141.029 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 21184.3 KB, split: 409600 KB)
+0141.045 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0141.071 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0141.087 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0141.105 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0141.122 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0141.137 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0141.153 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0141.169 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0141.185 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0141.201 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0141.218 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0141.234 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0141.249 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0141.263 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0141.278 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0141.294 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0141.312 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0149.003 (0) Creating zip file manifest (backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.list-temp.tmp)
+0149.010 (0) Successfully created zip file manifest (size: 128723)
+0149.112 (0) Created themes zip (0) - 14225.8 KB in 8.7 s (1644.1 KB/s) (sha1: 8ef82f868d628204de7c0b57babbbffc1ebd8cbd, sha256: f5747a4501a4a8087c3722f13d254ecc647d85fea6cbd3c96e8a05c7db47cfb3)
+0149.122 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0149.124 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4f3b5bd6213fcca259d4880c9a43cf93)
+0149.832 (0) Google Drive: quota usage: used=36.9 MB, total=15360 MB, available=15323.1 MB
+0149.838 (0) Google Drive: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip: Attempting to upload to Google Drive (into folder id: 1ad6O8H6wAyJCPtr2Ynt6OU5r9BfuC9PE)
+0152.042 (0) Googledrive chunked upload: 7.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 85.9 / 104)
+0154.553 (0) Googledrive chunked upload: 21.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 86 / 104)
+0157.732 (0) Googledrive chunked upload: 50.4 % uploaded (7340032)
+0161.011 (0) Googledrive chunked upload: 79.2 % uploaded (11534336)
+0164.573 (0) Googledrive chunked upload: 100 % uploaded (11534336)
+0164.577 (0) Google Drive: OK: Archive backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip uploaded in 14.74 seconds
+0164.578 (0) Recording as successfully uploaded: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip
+0164.582 (0) Deleting local file: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip: OK
+0164.586 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0164.588 (0) Looking for candidates to backup in: C:\xampp\htdocs\Zoo\wordpress/wp-content/uploads
+0164.589 (0) finding files: 2021: adding to list (1)
+0164.590 (0) finding files: 2024: adding to list (2)
+0164.591 (0) finding files: blocksy: adding to list (3)
+0164.592 (0) finding files: wc-logs: adding to list (4)
+0164.593 (0) finding files: woocommerce-placeholder.png: adding to list (5)
+0164.594 (0) finding files: woocommerce_uploads: adding to list (6)
+0164.595 (0) finding files: wpforms: adding to list (7)
+0164.596 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0164.642 (0) Total entities for the zip file: 12 directories, 250 files (0 skipped as non-modified), 432.3 MB
+0164.653 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 25 MB added on this batch (30.9 MB, 250 files batched, 55 (55) added so far); re-opening (prior size: 0 KB)
+0165.445 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.4 s, rate: 18738.7 KB/s)
+0165.448 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.6877288818359, normalised_time=1.3661582938207, max_time=165.44605302811, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0165.460 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads.zip.tmp: 100 files added (on-disk size: 31455.7 KB)
+0165.466 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (200.6 MB, 250 files batched, 70 (125) added so far); re-opening (prior size: 31455.7 KB)
+0170.924 (0) A useful amount of data was added after this amount of zip processing: 6.2 s (normalised: 6.1 s, rate: 33304.3 KB/s)
+0170.938 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads.zip.tmp: 200 files added (on-disk size: 236798 KB)
+0170.942 (0) Adding batch to zip file (UpdraftPlus_PclZip): possibly approaching split limit (155.5 MB, 76 (201) files added so far); last ratio: 0.9998; re-opening (prior size: 236798 KB)
+0175.960 (0) Zip size is at/near split limit (386.6 MB / 400 MB) - bumping index (from: 0)
+0178.422 (0) Creating zip file manifest (backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads.zip.list-temp.tmp)
+0178.426 (0) Successfully created zip file manifest (size: 12290)
+0178.433 (0) Created uploads zip (0) - 395898.5 KB in 11.4 s (34836.6 KB/s) (checksums: sha1: de1c5acf9d087aac35262d91df27d2c0e56ef70b, sha256: 79f007a23fd5d2c1abb0bbd69f91c0577b2beeedee971936c905d1b4834f56e4)
+0178.445 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0178.447 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4f3b5bd6213fcca259d4880c9a43cf93)
+0178.993 (0) Google Drive: quota usage: used=50.8 MB, total=15360 MB, available=15309.2 MB
+0178.997 (0) Google Drive: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads.zip: Attempting to upload to Google Drive (into folder id: 1ad6O8H6wAyJCPtr2Ynt6OU5r9BfuC9PE)
+0181.343 (0) Googledrive chunked upload: 0.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 85.8 / 106)
+0183.703 (0) Googledrive chunked upload: 0.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 85.8 / 106)
+0186.875 (0) Googledrive chunked upload: 1.8 % uploaded (7340032)
+0190.441 (0) Googledrive chunked upload: 2.8 % uploaded (11534336)
+0193.598 (0) Googledrive chunked upload: 3.9 % uploaded (15728640)
+0196.781 (0) Googledrive chunked upload: 4.9 % uploaded (19922944)
+0199.971 (0) Googledrive chunked upload: 5.9 % uploaded (24117248)
+0203.457 (0) Googledrive chunked upload: 7 % uploaded (28311552)
+0206.687 (0) Googledrive chunked upload: 8 % uploaded (32505856)
+0209.859 (0) Googledrive chunked upload: 9.1 % uploaded (36700160)
+0213.141 (0) Googledrive chunked upload: 10.1 % uploaded (40894464)
+0216.348 (0) Googledrive chunked upload: 11.1 % uploaded (45088768)
+0219.612 (0) Googledrive chunked upload: 12.2 % uploaded (49283072)
+0222.801 (0) Googledrive chunked upload: 13.2 % uploaded (53477376)
+0226.488 (0) Googledrive chunked upload: 14.2 % uploaded (57671680)
+0229.623 (0) Googledrive chunked upload: 15.3 % uploaded (61865984)
+0232.801 (0) Googledrive chunked upload: 16.3 % uploaded (66060288)
+0236.035 (0) Googledrive chunked upload: 17.3 % uploaded (70254592)
+0239.339 (0) Googledrive chunked upload: 18.4 % uploaded (74448896)
+0242.522 (0) Googledrive chunked upload: 19.4 % uploaded (78643200)
+0245.699 (0) Googledrive chunked upload: 20.4 % uploaded (82837504)
+0248.915 (0) Googledrive chunked upload: 21.5 % uploaded (87031808)
+0252.181 (0) Googledrive chunked upload: 22.5 % uploaded (91226112)
+0255.424 (0) The scheduled resumption is within 45 seconds - will reschedule
+0255.431 (0) Rescheduling resumption 1: moving to 345 seconds from now (1730264726)
+0255.438 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0255.440 (0) Googledrive chunked upload: 23.5 % uploaded (95420416)
+0258.647 (0) Googledrive chunked upload: 24.6 % uploaded (99614720)
+0262.288 (0) Googledrive chunked upload: 25.6 % uploaded (103809024)
+0265.491 (0) Googledrive chunked upload: 26.6 % uploaded (108003328)
+0268.696 (0) Googledrive chunked upload: 27.7 % uploaded (112197632)
+0271.949 (0) Googledrive chunked upload: 28.7 % uploaded (116391936)
+0275.487 (0) Googledrive chunked upload: 29.7 % uploaded (120586240)
+0278.747 (0) Googledrive chunked upload: 30.8 % uploaded (124780544)
+0281.947 (0) Googledrive chunked upload: 31.8 % uploaded (128974848)
+0285.114 (0) Googledrive chunked upload: 32.8 % uploaded (133169152)
+0288.274 (0) Googledrive chunked upload: 33.9 % uploaded (137363456)
+0291.451 (0) Googledrive chunked upload: 34.9 % uploaded (141557760)
+0294.605 (0) Googledrive chunked upload: 36 % uploaded (145752064)
+0297.864 (0) Googledrive chunked upload: 37 % uploaded (149946368)
+0301.061 (0) Googledrive chunked upload: 38 % uploaded (154140672)
+0304.276 (0) Googledrive chunked upload: 39.1 % uploaded (158334976)
+0307.471 (0) Googledrive chunked upload: 40.1 % uploaded (162529280)
+0311.020 (0) Googledrive chunked upload: 41.1 % uploaded (166723584)
+0314.221 (0) Googledrive chunked upload: 42.2 % uploaded (170917888)
+0317.450 (0) The time we have been running (317.4) is approaching the resumption interval (345) - increasing resumption interval to 348
+0317.454 (0) Googledrive chunked upload: 43.2 % uploaded (175112192)
+0320.671 (0) The time we have been running (320.7) is approaching the resumption interval (348) - increasing resumption interval to 351
+0320.676 (0) Googledrive chunked upload: 44.2 % uploaded (179306496)
+0323.996 (0) The time we have been running (324) is approaching the resumption interval (351) - increasing resumption interval to 354
+0324.000 (0) Googledrive chunked upload: 45.3 % uploaded (183500800)
+0327.158 (0) The time we have been running (327.1) is approaching the resumption interval (354) - increasing resumption interval to 358
+0327.162 (0) Googledrive chunked upload: 46.3 % uploaded (187695104)
+0330.355 (0) The time we have been running (330.3) is approaching the resumption interval (358) - increasing resumption interval to 361
+0330.359 (0) Googledrive chunked upload: 47.3 % uploaded (191889408)
+0333.774 (0) The time we have been running (333.8) is approaching the resumption interval (361) - increasing resumption interval to 364
+0333.777 (0) Googledrive chunked upload: 48.4 % uploaded (196083712)
+0337.013 (0) The time we have been running (337) is approaching the resumption interval (364) - increasing resumption interval to 368
+0337.016 (0) Googledrive chunked upload: 49.4 % uploaded (200278016)
+0340.234 (0) The time we have been running (340.2) is approaching the resumption interval (368) - increasing resumption interval to 371
+0340.237 (0) Googledrive chunked upload: 50.4 % uploaded (204472320)
+0343.424 (0) The time we have been running (343.4) is approaching the resumption interval (371) - increasing resumption interval to 374
+0343.427 (0) Googledrive chunked upload: 51.5 % uploaded (208666624)
+0347.131 (0) The time we have been running (347.1) is approaching the resumption interval (374) - increasing resumption interval to 378
+0347.134 (0) Googledrive chunked upload: 52.5 % uploaded (212860928)
+0350.495 (0) The time we have been running (350.5) is approaching the resumption interval (378) - increasing resumption interval to 381
+0350.498 (0) Googledrive chunked upload: 53.5 % uploaded (217055232)
+0353.808 (0) The time we have been running (353.8) is approaching the resumption interval (381) - increasing resumption interval to 384
+0353.811 (0) Googledrive chunked upload: 54.6 % uploaded (221249536)
+0357.238 (0) The time we have been running (357.2) is approaching the resumption interval (384) - increasing resumption interval to 388
+0357.241 (0) Googledrive chunked upload: 55.6 % uploaded (225443840)
+0360.631 (0) The time we have been running (360.6) is approaching the resumption interval (388) - increasing resumption interval to 391
+0360.635 (0) Googledrive chunked upload: 56.6 % uploaded (229638144)
+0363.982 (0) The time we have been running (364) is approaching the resumption interval (391) - increasing resumption interval to 394
+0363.984 (0) Googledrive chunked upload: 57.7 % uploaded (233832448)
+0367.333 (0) The time we have been running (367.3) is approaching the resumption interval (394) - increasing resumption interval to 398
+0367.336 (0) Googledrive chunked upload: 58.7 % uploaded (238026752)
+0371.058 (0) The time we have been running (371.1) is approaching the resumption interval (398) - increasing resumption interval to 402
+0371.061 (0) Googledrive chunked upload: 59.7 % uploaded (242221056)
+0374.343 (0) The time we have been running (374.3) is approaching the resumption interval (402) - increasing resumption interval to 405
+0374.346 (0) Googledrive chunked upload: 60.8 % uploaded (246415360)
+0377.766 (0) The time we have been running (377.8) is approaching the resumption interval (405) - increasing resumption interval to 408
+0377.771 (0) Googledrive chunked upload: 61.8 % uploaded (250609664)
+0381.301 (0) The time we have been running (381.3) is approaching the resumption interval (408) - increasing resumption interval to 412
+0381.303 (0) Googledrive chunked upload: 62.9 % uploaded (254803968)
+0384.651 (0) The time we have been running (384.6) is approaching the resumption interval (412) - increasing resumption interval to 415
+0384.655 (0) Googledrive chunked upload: 63.9 % uploaded (258998272)
+0387.985 (0) The time we have been running (388) is approaching the resumption interval (415) - increasing resumption interval to 418
+0387.989 (0) Googledrive chunked upload: 64.9 % uploaded (263192576)
+0391.344 (0) The time we have been running (391.3) is approaching the resumption interval (418) - increasing resumption interval to 422
+0391.346 (0) Googledrive chunked upload: 66 % uploaded (267386880)
+0395.112 (0) The time we have been running (395.1) is approaching the resumption interval (422) - increasing resumption interval to 426
+0395.115 (0) Googledrive chunked upload: 67 % uploaded (271581184)
+0398.429 (0) The time we have been running (398.4) is approaching the resumption interval (426) - increasing resumption interval to 429
+0398.432 (0) Googledrive chunked upload: 68 % uploaded (275775488)
+0401.732 (0) The time we have been running (401.7) is approaching the resumption interval (429) - increasing resumption interval to 432
+0401.735 (0) Googledrive chunked upload: 69.1 % uploaded (279969792)
+0405.058 (0) The time we have been running (405.1) is approaching the resumption interval (432) - increasing resumption interval to 436
+0405.060 (0) Googledrive chunked upload: 70.1 % uploaded (284164096)
+0408.398 (0) The time we have been running (408.4) is approaching the resumption interval (436) - increasing resumption interval to 439
+0408.401 (0) Googledrive chunked upload: 71.1 % uploaded (288358400)
+0411.778 (0) The time we have been running (411.8) is approaching the resumption interval (439) - increasing resumption interval to 442
+0411.781 (0) Googledrive chunked upload: 72.2 % uploaded (292552704)
+0415.226 (0) The time we have been running (415.2) is approaching the resumption interval (442) - increasing resumption interval to 446
+0415.233 (0) Googledrive chunked upload: 73.2 % uploaded (296747008)
+0418.867 (0) The time we have been running (418.9) is approaching the resumption interval (446) - increasing resumption interval to 449
+0418.870 (0) Googledrive chunked upload: 74.2 % uploaded (300941312)
+0422.247 (0) The time we have been running (422.2) is approaching the resumption interval (449) - increasing resumption interval to 453
+0422.250 (0) Googledrive chunked upload: 75.3 % uploaded (305135616)
+0425.662 (0) The time we have been running (425.7) is approaching the resumption interval (453) - increasing resumption interval to 456
+0425.666 (0) Googledrive chunked upload: 76.3 % uploaded (309329920)
+0429.493 (0) The time we have been running (429.5) is approaching the resumption interval (456) - increasing resumption interval to 460
+0429.496 (0) Googledrive chunked upload: 77.3 % uploaded (313524224)
+0432.874 (0) The time we have been running (432.9) is approaching the resumption interval (460) - increasing resumption interval to 463
+0432.878 (0) Googledrive chunked upload: 78.4 % uploaded (317718528)
+0436.246 (0) The time we have been running (436.2) is approaching the resumption interval (463) - increasing resumption interval to 467
+0436.250 (0) Googledrive chunked upload: 79.4 % uploaded (321912832)
+0439.568 (0) The time we have been running (439.6) is approaching the resumption interval (467) - increasing resumption interval to 470
+0439.571 (0) Googledrive chunked upload: 80.4 % uploaded (326107136)
+0443.128 (0) The time we have been running (443.1) is approaching the resumption interval (470) - increasing resumption interval to 474
+0443.132 (0) Googledrive chunked upload: 81.5 % uploaded (330301440)
+0446.390 (0) The time we have been running (446.4) is approaching the resumption interval (474) - increasing resumption interval to 477
+0446.393 (0) Googledrive chunked upload: 82.5 % uploaded (334495744)
+0449.748 (0) The time we have been running (449.7) is approaching the resumption interval (477) - increasing resumption interval to 480
+0449.755 (0) Googledrive chunked upload: 83.5 % uploaded (338690048)
+0453.157 (0) The time we have been running (453.2) is approaching the resumption interval (480) - increasing resumption interval to 484
+0453.159 (0) Googledrive chunked upload: 84.6 % uploaded (342884352)
+0456.454 (0) The time we have been running (456.4) is approaching the resumption interval (484) - increasing resumption interval to 487
+0456.457 (0) Googledrive chunked upload: 85.6 % uploaded (347078656)
+0459.818 (0) The time we have been running (459.8) is approaching the resumption interval (487) - increasing resumption interval to 490
+0459.822 (0) Googledrive chunked upload: 86.6 % uploaded (351272960)
+0463.191 (0) The time we have been running (463.2) is approaching the resumption interval (490) - increasing resumption interval to 494
+0463.194 (0) Googledrive chunked upload: 87.7 % uploaded (355467264)
+0466.907 (0) The time we have been running (466.9) is approaching the resumption interval (494) - increasing resumption interval to 497
+0466.911 (0) Googledrive chunked upload: 88.7 % uploaded (359661568)
+0470.235 (0) The time we have been running (470.2) is approaching the resumption interval (497) - increasing resumption interval to 501
+0470.240 (0) Googledrive chunked upload: 89.8 % uploaded (363855872)
+0473.601 (0) The time we have been running (473.6) is approaching the resumption interval (501) - increasing resumption interval to 504
+0473.613 (0) Googledrive chunked upload: 90.8 % uploaded (368050176)
+0477.035 (0) The time we have been running (477) is approaching the resumption interval (504) - increasing resumption interval to 508
+0477.038 (0) Googledrive chunked upload: 91.8 % uploaded (372244480)
+0480.470 (0) The time we have been running (480.5) is approaching the resumption interval (508) - increasing resumption interval to 511
+0480.473 (0) Googledrive chunked upload: 92.9 % uploaded (376438784)
+0483.784 (0) The time we have been running (483.8) is approaching the resumption interval (511) - increasing resumption interval to 514
+0483.787 (0) Googledrive chunked upload: 93.9 % uploaded (380633088)
+0487.210 (0) The time we have been running (487.2) is approaching the resumption interval (514) - increasing resumption interval to 518
+0487.212 (0) Googledrive chunked upload: 94.9 % uploaded (384827392)
+0490.883 (0) The time we have been running (490.9) is approaching the resumption interval (518) - increasing resumption interval to 521
+0490.887 (0) Googledrive chunked upload: 96 % uploaded (389021696)
+0494.231 (0) The time we have been running (494.2) is approaching the resumption interval (521) - increasing resumption interval to 525
+0494.234 (0) Googledrive chunked upload: 97 % uploaded (393216000)
+0497.586 (0) The time we have been running (497.6) is approaching the resumption interval (525) - increasing resumption interval to 528
+0497.589 (0) Googledrive chunked upload: 98 % uploaded (397410304)
+0500.967 (0) The time we have been running (501) is approaching the resumption interval (528) - increasing resumption interval to 531
+0500.971 (0) Googledrive chunked upload: 99.1 % uploaded (401604608)
+0506.042 (0) The time we have been running (506) is approaching the resumption interval (531) - increasing resumption interval to 537
+0506.046 (0) Googledrive chunked upload: 100 % uploaded (401604608)
+0506.052 (0) Google Drive: OK: Archive backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads.zip uploaded in 327.05 seconds
+0506.053 (0) Recording as successfully uploaded: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads.zip
+0506.096 (0) Deleting local file: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads.zip: OK
+0506.104 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (1.8 MB, 1 (202) files added so far); re-opening (prior size: 0 KB)
+0508.266 (0) The time we have been running (508.3) is approaching the resumption interval (537) - increasing resumption interval to 539
+0508.271 (0) Creating zip file manifest (backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads2.zip.list-temp.tmp)
+0508.274 (0) Successfully created zip file manifest (size: 2485)
+0508.623 (0) Created uploads zip (1) - 44756.5 KB in 330.2 s (135.6 KB/s) (sha1: 12f3f9f720b282e10ed5b29deff2da056dd605a5, sha256: 6cee747bb8eb8afe407a1eb68b76de3b4c9c3ca148b5693780816342780c732e)
+0508.633 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0508.635 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4f3b5bd6213fcca259d4880c9a43cf93)
+0509.438 (0) Google Drive: quota usage: used=400.5 MB, total=15360 MB, available=14959.5 MB
+0509.444 (0) Google Drive: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1ad6O8H6wAyJCPtr2Ynt6OU5r9BfuC9PE)
+0512.361 (0) The time we have been running (512.4) is approaching the resumption interval (539) - increasing resumption interval to 543
+0512.364 (0) Googledrive chunked upload: 2.3 % uploaded (1048576)
+0514.190 (0) The time we have been running (514.2) is approaching the resumption interval (543) - increasing resumption interval to 545
+0514.193 (0) Googledrive chunked upload: 4.6 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 85.7 / 104)
+0516.626 (0) The time we have been running (516.6) is approaching the resumption interval (545) - increasing resumption interval to 547
+0516.630 (0) Googledrive chunked upload: 9.2 % uploaded (4194304 - increasing chunk size to 4096 KB - memory usage: 85.7 / 104)
+0519.985 (0) The time we have been running (520) is approaching the resumption interval (547) - increasing resumption interval to 550
+0519.988 (0) Googledrive chunked upload: 18.3 % uploaded (8388608)
+0523.299 (0) The time we have been running (523.3) is approaching the resumption interval (550) - increasing resumption interval to 554
+0523.302 (0) Googledrive chunked upload: 27.5 % uploaded (12582912)
+0527.058 (0) The time we have been running (527.1) is approaching the resumption interval (554) - increasing resumption interval to 558
+0527.061 (0) Googledrive chunked upload: 36.6 % uploaded (16777216)
+0530.446 (0) The time we have been running (530.4) is approaching the resumption interval (558) - increasing resumption interval to 561
+0530.449 (0) Googledrive chunked upload: 45.8 % uploaded (20971520)
+0533.732 (0) The time we have been running (533.7) is approaching the resumption interval (561) - increasing resumption interval to 564
+0533.735 (0) Googledrive chunked upload: 54.9 % uploaded (25165824)
+0537.131 (0) The time we have been running (537.1) is approaching the resumption interval (564) - increasing resumption interval to 568
+0537.134 (0) Googledrive chunked upload: 64.1 % uploaded (29360128)
+0540.496 (0) The time we have been running (540.5) is approaching the resumption interval (568) - increasing resumption interval to 571
+0540.499 (0) Googledrive chunked upload: 73.2 % uploaded (33554432)
+0543.752 (0) The time we have been running (543.7) is approaching the resumption interval (571) - increasing resumption interval to 574
+0543.756 (0) Googledrive chunked upload: 82.4 % uploaded (37748736)
+0547.111 (0) The time we have been running (547.1) is approaching the resumption interval (574) - increasing resumption interval to 578
+0547.114 (0) Googledrive chunked upload: 91.5 % uploaded (41943040)
+0552.106 (0) The time we have been running (552.1) is approaching the resumption interval (578) - increasing resumption interval to 583
+0552.109 (0) Googledrive chunked upload: 100 % uploaded (41943040)
+0552.114 (0) Google Drive: OK: Archive backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads2.zip uploaded in 42.67 seconds
+0552.116 (0) Recording as successfully uploaded: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads2.zip
+0552.123 (0) Deleting local file: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads2.zip: OK
+0552.128 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0552.129 (0) Does not exist: C:\xampp\htdocs\Zoo\wordpress/wp-content/mu-plugins
+0552.130 (0) There are no mu-plugins to backup. Will not raise an error.
+0552.131 (0) mu-plugins: create_zip returned an error
+0552.133 (0) Beginning backup of other directories found in the content directory (index: 0)
+0552.134 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0552.135 (0) Looking for candidates to backup in: C:\xampp\htdocs\Zoo\wordpress/wp-content
+0552.136 (0) finding files: index.php: adding to list (1)
+0552.137 (0) finding files: languages: adding to list (2)
+0552.138 (0) finding files: plugins: skipping: this is the plugins directory
+0552.139 (0) finding files: themes: skipping: this is the themes directory
+0552.140 (0) finding files: updraft: skipping: this is the updraft directory
+0552.141 (0) finding files: upgrade: skipping: excluded by options
+0552.142 (0) finding files: uploads: skipping: this is the uploads directory
+0552.204 (0) Total entities for the zip file: 3 directories, 379 files (0 skipped as non-modified), 8.3 MB
+0552.207 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 8498.8 KB, split: 409600 KB)
+0552.224 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0552.239 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0552.254 (0) Zip: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0552.837 (0) Creating zip file manifest (backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-others.zip.list-temp.tmp)
+0552.842 (0) Successfully created zip file manifest (size: 29329)
+0552.869 (0) Created others zip (0) - 2488.6 KB in 0.7 s (3448.1 KB/s) (sha1: ded7e2b0b0390678005da0fb83f8fbb601f50dbe, sha256: fc6ec8abb595379a9d4eb5903e5c37a793075c85be2057d10f7966430a80f711)
+0552.876 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0552.878 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4f3b5bd6213fcca259d4880c9a43cf93)
+0553.756 (0) Google Drive: quota usage: used=444.2 MB, total=15360 MB, available=14915.8 MB
+0553.758 (0) Google Drive: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-others.zip: Attempting to upload to Google Drive (into folder id: 1ad6O8H6wAyJCPtr2Ynt6OU5r9BfuC9PE)
+0556.458 (0) The time we have been running (556.5) is approaching the resumption interval (583) - increasing resumption interval to 587
+0556.461 (0) The scheduled resumption is within 45 seconds - will reschedule
+0556.464 (0) Rescheduling resumption 1: moving to 632 seconds from now (1730265314)
+0556.468 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 587 + 45 = 632
+0556.470 (0) Googledrive chunked upload: 41.1 % uploaded (1048576)
+0558.198 (0) Googledrive chunked upload: 82.3 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 85.8 / 104)
+0561.951 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0561.957 (0) Google Drive: OK: Archive backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-others.zip uploaded in 8.2 seconds
+0561.959 (0) Recording as successfully uploaded: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-others.zip
+0561.962 (0) Deleting local file: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-others.zip: OK
+0561.970 (0) Saving backup status to database (elements: 9)
+0561.972 (0) Beginning creation of database dump (WordPress DB)
+0561.974 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0562.033 (0) Table wp_options: Total expected rows (via COUNT): 584
+0562.094 (0) Table wp_options: Rows added in this batch (next record: 2134): 580 (uncompressed bytes in this segment=3027709) in 0.09 seconds
+0562.104 (0) Table wp_options: finishing file(s) (2, 465.9 KB)
+0562.114 (0) Table wp_users: Total expected rows (via COUNT): 1
+0562.115 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.119 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1169) in 0.01 seconds
+0562.124 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0562.132 (0) Table wp_usermeta: Total expected rows (via COUNT): 46
+0562.133 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.136 (0) Table wp_usermeta: Rows added in this batch (next record: 47): 46 (uncompressed bytes in this segment=4192) in 0.01 seconds
+0562.143 (0) Table wp_usermeta: finishing file(s) (2, 1.8 KB)
+0562.153 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 254
+0562.154 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.160 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 272): 254 (uncompressed bytes in this segment=96165) in 0.01 seconds
+0562.168 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 6.7 KB)
+0562.174 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0562.177 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.01 seconds
+0562.182 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0562.189 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 5
+0562.190 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.194 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=758) in 0.01 seconds
+0562.199 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0562.206 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 750
+0562.215 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 750): 750 (uncompressed bytes in this segment=68416) in 0.01 seconds
+0562.221 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 5.5 KB)
+0562.231 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0562.234 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.01 seconds
+0562.241 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0562.248 (0) Table wp_comments: Total expected rows (via COUNT): 2
+0562.249 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.253 (0) Table wp_comments: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=2396) in 0.01 seconds
+0562.259 (0) Table wp_comments: finishing file(s) (2, 0.9 KB)
+0562.270 (0) Table wp_links: Total expected rows (via COUNT): 0
+0562.273 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.01 seconds
+0562.279 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0562.297 (0) Table wp_postmeta: Total expected rows (approximate): 1403
+0562.308 (0) Table wp_postmeta: Rows added in this batch (next record: 1551): 1422 (uncompressed bytes in this segment=340472) in 0.02 seconds
+0562.315 (0) Table wp_postmeta: finishing file(s) (2, 30.5 KB)
+0562.422 (0) Table wp_posts: Total expected rows (via COUNT): 470
+0562.423 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.567 (0) Table wp_posts: Rows added in this batch (next record: 956): 470 (uncompressed bytes in this segment=6659737) in 0.25 seconds
+0562.580 (0) Table wp_posts: finishing file(s) (2, 518.9 KB)
+0562.586 (0) Table wp_term_relationships: Total expected rows (approximate): 76
+0562.590 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 72 (uncompressed bytes in this segment=1705) in 0.01 seconds
+0562.596 (0) Table wp_term_relationships: finishing file(s) (2, 0.6 KB)
+0562.604 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 28
+0562.605 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.608 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=1861) in 0.01 seconds
+0562.615 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0562.623 (0) Table wp_termmeta: Total expected rows (via COUNT): 25
+0562.624 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.626 (0) Table wp_termmeta: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=1594) in 0.01 seconds
+0562.632 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0562.638 (0) Table wp_terms: Total expected rows (via COUNT): 28
+0562.639 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.641 (0) Table wp_terms: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=1601) in 0.01 seconds
+0562.647 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0562.658 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 6
+0562.661 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=644) in 0.01 seconds
+0562.666 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0562.672 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 17
+0562.673 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.676 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 114): 17 (uncompressed bytes in this segment=2979) in 0.01 seconds
+0562.681 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.7 KB)
+0562.690 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0562.692 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=663) in 0.00 seconds
+0562.697 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0562.704 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0562.705 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.708 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=750) in 0.01 seconds
+0562.713 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0562.723 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0562.725 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.01 seconds
+0562.731 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0562.742 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0562.743 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.00 seconds
+0562.750 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0562.758 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 86
+0562.759 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.762 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 883): 86 (uncompressed bytes in this segment=17748) in 0.01 seconds
+0562.768 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 3.3 KB)
+0562.776 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 59
+0562.777 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.779 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 59): 59 (uncompressed bytes in this segment=29153) in 0.01 seconds
+0562.798 (0) Table wp_wc_admin_notes: finishing file(s) (2, 6.3 KB)
+0562.810 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0562.814 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1018) in 0.01 seconds
+0562.819 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0562.826 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0562.828 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.00 seconds
+0562.834 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0562.844 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 0
+0562.846 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1058) in 0.01 seconds
+0562.851 (0) Table wp_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0562.859 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0562.861 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=715) in 0.00 seconds
+0562.866 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0562.872 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 0
+0562.873 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1399) in 0.00 seconds
+0562.878 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0562.887 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0562.888 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1215) in 0.00 seconds
+0562.894 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0562.900 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0562.902 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1149) in 0.00 seconds
+0562.907 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0562.915 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0562.916 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=793) in 0.00 seconds
+0562.921 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0562.928 (0) Table wp_wc_orders: Total expected rows (via COUNT): 0
+0562.929 (0) Table wp_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1417) in 0.00 seconds
+0562.934 (0) Table wp_wc_orders: finishing file(s) (2, 0.5 KB)
+0562.941 (0) Table wp_wc_orders_meta: Total expected rows (via COUNT): 0
+0562.944 (0) Table wp_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0562.948 (0) Table wp_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0562.954 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0562.957 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=831) in 0.00 seconds
+0562.962 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0562.968 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0562.969 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0562.972 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=893) in 0.01 seconds
+0562.979 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0562.987 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0562.989 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=667) in 0.00 seconds
+0562.994 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0563.002 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0563.003 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1071) in 0.00 seconds
+0563.008 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0563.019 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0563.020 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=873) in 0.01 seconds
+0563.026 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0563.032 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0563.033 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.00 seconds
+0563.038 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0563.044 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0563.045 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1410) in 0.00 seconds
+0563.050 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0563.059 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0563.061 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=642) in 0.01 seconds
+0563.066 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0563.072 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0563.074 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.00 seconds
+0563.079 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0563.089 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0563.090 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=744) in 0.00 seconds
+0563.095 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0563.102 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0563.103 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0563.106 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2156) in 0.01 seconds
+0563.112 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0563.119 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0563.122 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=804) in 0.01 seconds
+0563.128 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0563.134 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0563.135 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=742) in 0.00 seconds
+0563.140 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0563.146 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0563.147 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=602) in 0.00 seconds
+0563.152 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.3 KB)
+0563.161 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0563.162 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=786) in 0.00 seconds
+0563.167 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0563.177 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0563.179 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1142) in 0.01 seconds
+0563.185 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0563.197 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 26
+0563.198 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0563.202 (0) Table wp_wpforms_logs: Rows added in this batch (next record: 26): 26 (uncompressed bytes in this segment=3379) in 0.01 seconds
+0563.209 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.7 KB)
+0563.221 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0563.224 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.01 seconds
+0563.230 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0563.238 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0563.240 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.00 seconds
+0563.245 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0563.253 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0563.254 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0563.256 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 6): 4 (uncompressed bytes in this segment=904) in 0.01 seconds
+0563.263 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0563.264 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\Zoo\wordpress/wp-content/updraft/backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db.gz (line 1925, C:\xampp\htdocs\Zoo\wordpress\wp-content\plugins\updraftplus\backup.php)
+0563.265 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_options.table.tmpr2135.gz (1/54/fopen): adding to final database dump
+0563.273 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_options.table.gz (2/54/fopen): adding to final database dump
+0563.275 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_users.table.tmpr2.gz (3/54/fopen): adding to final database dump
+0563.276 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_users.table.gz (4/54/fopen): adding to final database dump
+0563.277 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_usermeta.table.tmpr48.gz (5/54/fopen): adding to final database dump
+0563.278 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_usermeta.table.gz (6/54/fopen): adding to final database dump
+0563.278 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_actionscheduler_actions.table.tmpr273.gz (7/54/fopen): adding to final database dump
+0563.280 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_actionscheduler_actions.table.gz (8/54/fopen): adding to final database dump
+0563.281 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/54/fopen): adding to final database dump
+0563.282 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_actionscheduler_claims.table.gz (10/54/fopen): adding to final database dump
+0563.283 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_actionscheduler_groups.table.tmpr6.gz (11/54/fopen): adding to final database dump
+0563.284 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_actionscheduler_groups.table.gz (12/54/fopen): adding to final database dump
+0563.284 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_actionscheduler_logs.table.tmpr751.gz (13/54/fopen): adding to final database dump
+0563.286 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_actionscheduler_logs.table.gz (14/54/fopen): adding to final database dump
+0563.286 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_commentmeta.table.tmpr0.gz (15/54/fopen): adding to final database dump
+0563.287 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_commentmeta.table.gz (16/54/fopen): adding to final database dump
+0563.288 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_comments.table.tmpr3.gz (17/54/fopen): adding to final database dump
+0563.289 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_comments.table.gz (18/54/fopen): adding to final database dump
+0563.290 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_links.table.tmpr0.gz (19/54/fopen): adding to final database dump
+0563.291 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_links.table.gz (20/54/fopen): adding to final database dump
+0563.292 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_postmeta.table.tmpr1552.gz (21/54/fopen): adding to final database dump
+0563.294 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_postmeta.table.gz (22/54/fopen): adding to final database dump
+0563.295 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_posts.table.tmpr957.gz (23/54/fopen): adding to final database dump
+0563.303 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_posts.table.gz (24/54/fopen): adding to final database dump
+0563.304 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_term_relationships.table.tmpr100001.gz (25/54/fopen): adding to final database dump
+0563.305 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_term_relationships.table.gz (26/54/fopen): adding to final database dump
+0563.306 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_term_taxonomy.table.tmpr29.gz (27/54/fopen): adding to final database dump
+0563.307 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_term_taxonomy.table.gz (28/54/fopen): adding to final database dump
+0563.308 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_termmeta.table.tmpr26.gz (29/54/fopen): adding to final database dump
+0563.309 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_termmeta.table.gz (30/54/fopen): adding to final database dump
+0563.310 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_terms.table.tmpr29.gz (31/54/fopen): adding to final database dump
+0563.311 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_terms.table.gz (32/54/fopen): adding to final database dump
+0563.312 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/54/fopen): adding to final database dump
+0563.313 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_category_lookup.table.gz (34/54/fopen): adding to final database dump
+0563.314 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_product_meta_lookup.table.tmpr115.gz (35/54/fopen): adding to final database dump
+0563.315 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_product_meta_lookup.table.gz (36/54/fopen): adding to final database dump
+0563.316 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/54/fopen): adding to final database dump
+0563.318 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_reserved_stock.table.gz (38/54/fopen): adding to final database dump
+0563.319 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/54/fopen): adding to final database dump
+0563.320 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_tax_rate_classes.table.gz (40/54/fopen): adding to final database dump
+0563.321 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (41/54/fopen): adding to final database dump
+0563.322 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_order_itemmeta.table.gz (42/54/fopen): adding to final database dump
+0563.323 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/54/fopen): adding to final database dump
+0563.325 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/54/fopen): adding to final database dump
+0563.326 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_admin_note_actions.table.tmpr884.gz (45/54/fopen): adding to final database dump
+0563.327 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_admin_note_actions.table.gz (46/54/fopen): adding to final database dump
+0563.328 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_admin_notes.table.tmpr60.gz (47/54/fopen): adding to final database dump
+0563.329 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_admin_notes.table.gz (48/54/fopen): adding to final database dump
+0563.330 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_customer_lookup.table.tmpr0.gz (49/54/fopen): adding to final database dump
+0563.331 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_customer_lookup.table.gz (50/54/fopen): adding to final database dump
+0563.331 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_download_log.table.tmpr0.gz (51/54/fopen): adding to final database dump
+0563.332 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_download_log.table.gz (52/54/fopen): adding to final database dump
+0563.333 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_order_addresses.table.tmpr0.gz (53/54/fopen): adding to final database dump
+0563.334 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_order_addresses.table.gz (54/54/fopen): adding to final database dump
+0563.335 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (55/54/fopen): adding to final database dump
+0563.336 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_order_coupon_lookup.table.gz (56/54/fopen): adding to final database dump
+0563.337 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_order_operational_data.table.tmpr0.gz (57/54/fopen): adding to final database dump
+0563.338 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_order_operational_data.table.gz (58/54/fopen): adding to final database dump
+0563.339 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (59/54/fopen): adding to final database dump
+0563.340 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_order_product_lookup.table.gz (60/54/fopen): adding to final database dump
+0563.341 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_order_stats.table.tmpr0.gz (61/54/fopen): adding to final database dump
+0563.342 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_order_stats.table.gz (62/54/fopen): adding to final database dump
+0563.343 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (63/54/fopen): adding to final database dump
+0563.344 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_order_tax_lookup.table.gz (64/54/fopen): adding to final database dump
+0563.345 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_orders.table.tmpr0.gz (65/54/fopen): adding to final database dump
+0563.346 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_orders.table.gz (66/54/fopen): adding to final database dump
+0563.347 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_orders_meta.table.tmpr0.gz (67/54/fopen): adding to final database dump
+0563.348 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_orders_meta.table.gz (68/54/fopen): adding to final database dump
+0563.349 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (69/54/fopen): adding to final database dump
+0563.350 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_product_attributes_lookup.table.gz (70/54/fopen): adding to final database dump
+0563.351 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_product_download_directories.table.tmpr3.gz (71/54/fopen): adding to final database dump
+0563.352 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_product_download_directories.table.gz (72/54/fopen): adding to final database dump
+0563.353 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_rate_limits.table.tmpr0.gz (73/54/fopen): adding to final database dump
+0563.354 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_rate_limits.table.gz (74/54/fopen): adding to final database dump
+0563.355 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_webhooks.table.tmpr0.gz (75/54/fopen): adding to final database dump
+0563.356 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wc_webhooks.table.gz (76/54/fopen): adding to final database dump
+0563.357 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (77/54/fopen): adding to final database dump
+0563.358 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_api_keys.table.gz (78/54/fopen): adding to final database dump
+0563.359 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (79/54/fopen): adding to final database dump
+0563.360 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_attribute_taxonomies.table.gz (80/54/fopen): adding to final database dump
+0563.361 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (81/54/fopen): adding to final database dump
+0563.362 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (82/54/fopen): adding to final database dump
+0563.363 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_log.table.tmpr0.gz (83/54/fopen): adding to final database dump
+0563.364 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_log.table.gz (84/54/fopen): adding to final database dump
+0563.365 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_order_items.table.tmpr0.gz (85/54/fopen): adding to final database dump
+0563.366 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_order_items.table.gz (86/54/fopen): adding to final database dump
+0563.373 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (87/54/fopen): adding to final database dump
+0563.374 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_payment_tokens.table.gz (88/54/fopen): adding to final database dump
+0563.375 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_sessions.table.tmpr2.gz (89/54/fopen): adding to final database dump
+0563.377 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_sessions.table.gz (90/54/fopen): adding to final database dump
+0563.378 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (91/54/fopen): adding to final database dump
+0563.379 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_shipping_zone_locations.table.gz (92/54/fopen): adding to final database dump
+0563.381 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (93/54/fopen): adding to final database dump
+0563.382 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_shipping_zone_methods.table.gz (94/54/fopen): adding to final database dump
+0563.383 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (95/54/fopen): adding to final database dump
+0563.385 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_shipping_zones.table.gz (96/54/fopen): adding to final database dump
+0563.386 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (97/54/fopen): adding to final database dump
+0563.386 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_tax_rate_locations.table.gz (98/54/fopen): adding to final database dump
+0563.387 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (99/54/fopen): adding to final database dump
+0563.389 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_woocommerce_tax_rates.table.gz (100/54/fopen): adding to final database dump
+0563.390 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wpforms_logs.table.tmpr27.gz (101/54/fopen): adding to final database dump
+0563.391 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wpforms_logs.table.gz (102/54/fopen): adding to final database dump
+0563.392 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (103/54/fopen): adding to final database dump
+0563.393 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wpforms_payment_meta.table.gz (104/54/fopen): adding to final database dump
+0563.394 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wpforms_payments.table.tmpr0.gz (105/54/fopen): adding to final database dump
+0563.395 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wpforms_payments.table.gz (106/54/fopen): adding to final database dump
+0563.396 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wpforms_tasks_meta.table.tmpr7.gz (107/54/fopen): adding to final database dump
+0563.397 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db-table-wp_wpforms_tasks_meta.table.gz (108/54/fopen): adding to final database dump
+0563.408 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db.gz: finished writing out complete database file (1060.5 KB)
+0563.437 (0) Total database tables backed up: 54 (backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db.gz, size: 1086027, sha1: 435cd154624cf637667f1593ba113152a3030b3e, sha256: e8f06a4d36656492821003b3db75a4c485308cbd40faf13e59e939817aa6ae76)
+0563.443 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip: plugins: This file has already been successfully uploaded
+0563.445 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip: themes: This file has already been successfully uploaded
+0563.446 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads.zip: uploads: This file has already been successfully uploaded
+0563.447 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads2.zip: uploads: This file has already been successfully uploaded
+0563.448 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-others.zip: others: This file has already been successfully uploaded
+0563.449 (0) backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db.gz: db: This file has not yet been successfully uploaded: will queue
+0563.450 (0) Saving backup history. Total backup size: 484.6 MB
+0563.454 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0563.458 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0563.460 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4f3b5bd6213fcca259d4880c9a43cf93)
+0564.207 (0) Google Drive: quota usage: used=446.6 MB, total=15360 MB, available=14913.4 MB
+0564.214 (0) Google Drive: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db.gz: Attempting to upload to Google Drive (into folder id: 1ad6O8H6wAyJCPtr2Ynt6OU5r9BfuC9PE)
+0567.015 (0) Googledrive chunked upload: 96.6 % uploaded (1048576)
+0569.508 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0569.514 (0) Google Drive: OK: Archive backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db.gz uploaded in 5.3 seconds
+0569.516 (0) Recording as successfully uploaded: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db.gz
+0569.519 (0) Deleting local file: backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-db.gz: OK
+0569.521 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0569.523 (0) Number of backup sets in history: 1; groups (db): 1
+0569.524 (0) Examining (for databases) backup set with group_id=0, nonce=7931f6a418ed, datestamp=1730264126 (Oct 30 2024 04:55:26)
+0569.525 (0) This backup set is the backup set just made, so will not be deleted.
+0569.525 (0) Number of backup sets in history: 1; groups (files): 1
+0569.526 (0) Examining (for files) backup set with nonce=7931f6a418ed, datestamp=1730264126 (Oct 30 2024 04:55:26)
+0569.526 (0) This backup set is the backup set just made, so will not be deleted.
+0569.527 (0) This backup set is the backup set just made, so will not be deleted.
+0569.527 (0) This backup set is the backup set just made, so will not be deleted.
+0569.527 (0) This backup set is the backup set just made, so will not be deleted.
+0569.527 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0569.528 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0569.531 (0) Resume backup (7931f6a418ed, 0): finish run
+0569.537 (0) Decremented the semaphore (fd) by 1
+0569.538 (0) Semaphore (fd) unlocked
+0569.539 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0569.543 (0) Deleting zip manifest (backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-plugins.zip.list.tmp)
+0569.545 (0) Deleting zip manifest (backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-themes.zip.list.tmp)
+0569.547 (0) Deleting zip manifest (backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads.zip.list.tmp)
+0569.548 (0) Deleting zip manifest (backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-uploads2.zip.list.tmp)
+0569.549 (0) Deleting zip manifest (backup_2024-10-30-0455_Zoologico_de_El_salvador_7931f6a418ed-others.zip.list.tmp)
+0569.550 (0) No email will/can be sent - the user has not configured an email address.
+0569.551 (0) The backup succeeded and is now complete
